@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title> <!-- Título de la página -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Enlace al archivo de estilos CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Enlace al archivo JavaScript externo -->
+    <script defer src="script.js"></script>
+    
+    <!-- Fuente Montserrat de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Kit de Font Awesome para los iconos -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Encabezado con navegación y botón de contacto -->
+    <header id="header">
+        <h1>Mi Portafolio</h1> <!-- Título principal del portafolio -->
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Botón para redirigir a WhatsApp -->
+        <a href="https://wa.me/tunumerodetelefono" class="btn-hablemos">Hablemos</a>
+    </header>
+
+    <!-- Sección Sobre mí -->
+    <section id="sobre-mi" class="seccion">
+        <div class="sobre-mi-contenedor">
+            <div class="texto">
+                <h2>Hola, Soy Max</h2>
+                <p>Programador en formación con una carrera en administración.</p>
+                <p>Me encanta el mundo del marketing, la programación y la sostenibilidad.</p>
+                <p>Estoy aprendiendo SQL, JavaScript, HTML y CSS, y me gusta seguir un estilo de código claro y estructurado.</p>
+                <p>También me interesa la negociación y la persuasión, áreas clave para el crecimiento de mis proyectos.</p>
+                <a href="mailto:@gmail.com" class="btn-contratame">Contrátame</a>
+                <div class="redes-sociales">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <img src="/foto de portafolio.jpg" alt="Foto de Max" class="foto-perfil">
+        </div>
+    </section>
+<!-- Ola decorativa -->
+<div class="wave">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#0284c7"
+        fill-opacity="1"
+        d="M0,96L60,96C120,96,240,96,360,101.3C480,107,600,117,720,154.7C840,192,960,256,1080,261.3C1200,267,1320,213,1380,186.7L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+      ></path>
+    </svg>
+  </div>
+</section>
+
+    <!-- Sección Educación -->
+    <section id="educacion" class="seccion">
+        <h2>Educación</h2>
+        <div class="educacion-container">
+            <div class="columna">
+                <p>Instituto Idat - 2024</p>
+                <p>Egresado en Administración</p>
+            </div>
+            <div class="columna">
+                <p>Curso Online - 2025</p>
+                <p>Desarrollo Web y Programación</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Habilidades -->
+    <section id="habilidades" class="seccion">
+        <h2>Habilidades</h2>
+        <div class="habilidades-container">
+            <div class="habilidad">HTML <span class="nivel">Básico</span></div>
+            <div class="habilidad">CSS <span class="nivel">Básico</span></div>
+            <div class="habilidad">JavaScript <span class="nivel">Básico</span></div>
+            <div class="habilidad">Excel <span class="nivel">Intermedio</span></div>
+        </div>
+    </section>
+    <!-- Ola decorativa -->
+    <div class="wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#0284c7"
+            fill-opacity="1"
+            d="M0,224L60,202.7C120,181,240,139,360,144C480,149,600,203,720,213.3C840,224,960,192,1080,197.3C1200,203,1320,245,1380,266.7L1440,288L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="seccion">
+        <h2>Proyectos</h2>
+        <div class="proyectos-grid">
+            <div class="proyecto">
+                <h3>Proyecto 1</h3>
+                <p>Descripción breve.</p>
+                <a href="#" class="btn-proyecto">Ver Proyecto</a>
+            </div>
+            <div class="proyecto">
+                <h3>Proyecto 2</h3>
+                <p>Descripción breve.</p>
+                <a href="#" class="btn-proyecto">Ver Proyecto</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section class="contacto-container">
+        <!-- Primera Columna: Formulario -->
+        <div class="contacto-container">
+            <div class="contacto-form">
+                <h2>Contacto</h2>
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Correo">
+                <input type="text" placeholder="Asunto">
+                <select>
+                    <option>Selecciona un tema</option>
+                    <option>Consulta</option>
+                    <option>Soporte</option>
+                </select>
+                <textarea placeholder="Mensaje"></textarea>
+                <button>Enviar</button>
+            </div>
+            <div class="contacto-extra">
+                <h3>Contactame</h3>
+            </div>
+        </div>
+        
+    </section>
+
+    
+    <!-- Pie de página -->
+<footer>
+    <!-- Íconos de redes sociales -->
+    <div class="social-icons">
+        <a href="https://www.facebook.com/" target="_blank">
+            <i class="fab fa-facebook-square"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+    
+    <!-- Derechos de autor -->
+    <div class="createby">
+        <p>&copy; 2025 Max. Todos los derechos reservados.</p>
+    </div>
+
+    <!-- Botón para subir arriba -->
+    <button id="btnSubir" class="btn-subir">&#8679;</button>
+</footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
